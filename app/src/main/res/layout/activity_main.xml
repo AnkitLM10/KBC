@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+android:orientation="horizontal"
+    android:weightSum="100"
+    tools:context="com.example.ankit.quuiz.MainActivity">
+<!--
+This Layout Is For The Main Interface Layout
+-->
+<LinearLayout
+    android:layout_width="0dp"
+android:layout_weight="80"
+    android:weightSum="100"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="2"
+    android:background="@drawable/bsback"/>
+<!--
+This Layout is For all the Help Buttons
+-->
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:orientation="horizontal"
+    android:weightSum="125"
+    android:layout_weight="20">
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="25"
+        android:id="@+id/bt50"
+        android:background="@drawable/b50"/>
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="25"
+        android:id="@+id/btexpert"
+        android:background="@drawable/bexpert"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="25"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textColor="#000"
+        android:id="@+id/timerTv"
+        android:background="@drawable/timer"/>
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="25"
+        android:id="@+id/btpc"
+        android:background="@drawable/bpc"/>
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="25"
+        android:id="@+id/btx2"
+        android:background="@drawable/bx2"/>
+
+</LinearLayout>
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:id="@+id/tv"
+    android:gravity="center"
+android:textStyle="italic"
+    android:textColor="#fff"
+    android:layout_weight="30"
+
+    android:background="@drawable/ques"/>
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="12"
+    android:id="@+id/bt1"
+    android:background="@drawable/ba"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="12"
+        android:id="@+id/bt2"
+        android:background="@drawable/bb"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="12"
+        android:id="@+id/bt3"
+        android:background="@drawable/bc"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="12"
+        android:id="@+id/bt4"
+        android:background="@drawable/bd"/>
+
+
+
+
+
+</LinearLayout>
+<!--
+This Layout Is For Money Buttons
+-->
+<LinearLayout
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="20"
+    android:orientation="vertical"
+    android:id="@+id/side"
+    android:weightSum="120">
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="10"
+    android:text="1 Crore"
+    android:textColor="#fff"
+    android:background="@drawable/bsback"
+    android:id="@+id/button12"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"    android:textColor="#fff"
+        android:background="@drawable/bsback"
+        android:text="5,000,000"
+        android:id="@+id/button11"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:textColor="#fff"
+        android:background="@drawable/bsback"
+        android:text="2,500,000"
+        android:id="@+id/button10"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textColor="#fff"
+        android:background="@drawable/bsback"
+        android:layout_weight="10"
+        android:text="1,250,000"
+        android:id="@+id/button9"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:textColor="#fff"
+        android:background="@drawable/bsback"
+        android:text="640,000"
+        android:id="@+id/button8"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:textColor="#fff"
+        android:background="@drawable/bsback"
+        android:text="320,000"
+        android:id="@+id/button7"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:textColor="#fff"
+        android:background="@drawable/bsback"
+        android:text="160,000"
+        android:id="@+id/button6"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:textColor="#fff"
+        android:background="@drawable/bsback"
+        android:text="80,000"
+        android:id="@+id/button5"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:textColor="#fff"
+        android:background="@drawable/bsback"
+        android:text="40,000"
+        android:id="@+id/button4"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:textColor="#fff"
+        android:background="@drawable/bsback"
+        android:text="20,000"
+        android:id="@+id/button3"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:textColor="#fff"
+        android:background="@drawable/bsback"
+        android:text="10,000"
+        android:id="@+id/button2"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:textColor="#fff"
+        android:background="@drawable/bsback"
+        android:text="5,000"
+        android:id="@+id/button1"/>
+
+
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
